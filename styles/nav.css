@@ -9,16 +9,25 @@
 .navBar-wrapper > .left-column > .navBar-logo img {
     width: 200px;
     height: 100%;
+    margin-left: 20px;
 }
 
 .navBar-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.navBar-wrapper > .center-column > .title {
+    color: hsl(49.32deg, 100%, 62.55%);
+    font-size: 1.05rem;
+    font-weight: 700;
 }
 
 .navBar-wrapper > .center-column > .nav-links-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 .navBar-wrapper > .center-column > .nav-links-wrapper > .non-dropdown-links {
@@ -27,4 +36,29 @@
     align-items: center;
     margin-right: 20px;
 }
+
+.navBar-wrapper > .center-column > .nav-links-wrapper > .non-dropdown-links > .nav-link a {
+    margin-right: 13px;
+    text-decoration: none;
+    color: hsl(0deg, 0%, 100%);
+    font-size: 1.125rem;
+    font-weight: 750;
+}
+
+.navBar-wrapper > .center-column > .nav-links-wrapper > .dropdown-links > .nav-link a {
+    margin-right: 15px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: hsl(230deg, 12%, 85.29%);
+    font-size: 1.125rem;
+    font-weight: 515;
+}
+
+.navBar-wrapper > .center-column > .nav-links-wrapper > .dropdown-links > .nav-link i {
+    color: hsl(230deg, 12%, 85.29%);
+    font-size: 1rem;
+    font-weight: 515;
+}
+
+
 
