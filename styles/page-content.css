@@ -1,0 +1,95 @@
+.page-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    background: radial-gradient(circle at 20% 0%, rgb(68, 68, 76), hsl(225deg 9.52% 8.24%));
+}
+
+.page-content-wrapper > .right-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 6px;
+}
+
+.page-content-wrapper > .right-column > .description {
+    margin-left: 15px;
+    color: hsl(0deg, 0%, 100%);
+    font-weight: 750;
+}
+
+.page-content-wrapper > .right-column > .description span {
+    color: hsl(196.2deg 100% 73.14%);
+    font-weight: 750;
+}
+
+.page-content-wrapper > .right-column > .image-wrapper img {
+    height: 100%;
+    width: 700px;
+}
+
+.page-content-wrapper > .left-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    height: 90px;
+    width: 600px;
+    padding-left: 45px;
+    padding-top: 10px;
+}
+
+.page-content-wrapper > .left-column > .description1, .description2 {
+    color: hsl(230deg, 12%, 85.29%);
+}
+
+.page-content-wrapper > .left-column > .description1 {
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+.page-content-wrapper > .left-column > .description2 {
+    font-size: 2.04rem;
+    font-weight: 300;
+}
+
+.page-content-wrapper > .left-column > .description1 span {
+    font-weight: 700;
+    color: hsl(0deg, 0%, 100%);
+}
+
+.page-content-wrapper > .left-column > .page-links-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.page-content-wrapper > .left-column > .page-links-wrapper > .page-link {
+    margin-right: 15px;
+    font-size: 2.04rem;
+    font-weight: 450;
+}
+
+.page-content-wrapper > .left-column > .page-links-wrapper > .page-link a {
+    text-decoration: none;
+}
+
+.page-content-wrapper > .left-column > .page-links-wrapper >  #SignIn-link {
+    background-color: hsl(139.41deg 58.62% 54.51%);
+    padding: 15px 20px 15px 20px;
+    border-radius: 2px;
+}
+
+.page-content-wrapper > .left-column > .page-links-wrapper >  #SignIn-link a {
+    color: hsl(0deg 0% 0%);
+}
+
+.page-content-wrapper > .left-column > .page-links-wrapper >  #info-link {
+    background-color: hsl(0deg 0% 0%);
+    padding: 15px 20px 15px 20px;
+    border-radius: 2px;
+}
+
+.page-content-wrapper > .left-column > .page-links-wrapper >  #info-link a {
+    color: hsl(0deg, 0%, 100%);
+}
+
+

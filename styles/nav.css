@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    background-color: hsl(232.5, 11.76%, 13.33%);
+    background-color: hsl(0deg 0% 0%);
 }
 
 .navBar-wrapper > .left-column > .navBar-logo img {
