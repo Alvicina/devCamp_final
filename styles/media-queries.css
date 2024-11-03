@@ -1,0 +1,79 @@
+@media (max-width: 615px) {
+    .navBar-wrapper{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .navBar-wrapper > .left-column{
+        order: 3;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .navBar-wrapper > .center-column{
+        order: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navBar-wrapper > .center-column > .title {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .navBar-wrapper > .right-column{
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .navBar-wrapper > .center-column > .nav-links-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navBar-wrapper > .center-column > .nav-links-wrapper > .non-dropdown-links{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .navBar-wrapper > .center-column > .nav-links-wrapper > .dropdown-links{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .nav-links-wrapper > .non-dropdown-links > .nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .nav-links-wrapper > .dropdown-links > .nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .navBar-wrapper > .right-column > .right-column-items {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .navBar-wrapper > .right-column > .right-column-items > .navbar-div, .navbar-icon {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .navBar-wrapper > .center-column > .nav-links-wrapper > .non-dropdown-links > .nav-link a {
+        font-size: 1.9rem;
+    }
+    .navBar-wrapper > .center-column > .nav-links-wrapper > .dropdown-links > .nav-link a {
+        font-size: 1.9rem;
+    }
+    .navBar-wrapper > .center-column > .nav-links-wrapper > .dropdown-links > .nav-link i {
+        font-size: 1.9rem;
+    }
+    .navBar-wrapper > .right-column > .right-column-items > .navbar-div a {
+        font-size: 1.9rem;
+    }
+    .navBar-wrapper > .right-column > .right-column-items > .navbar-div i {
+        font-size: 1.9rem;
+    }
+
+}

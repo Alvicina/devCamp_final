@@ -45,6 +45,10 @@
     font-weight: 750;
 }
 
+.navBar-wrapper > .center-column > .nav-links-wrapper > .dropdown-links {
+    display: flex;
+}
+
 .navBar-wrapper > .center-column > .nav-links-wrapper > .dropdown-links > .nav-link a {
     margin-right: 15px;
     margin-left: 5px;
