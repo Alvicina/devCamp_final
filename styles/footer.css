@@ -1,0 +1,26 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(216, 5%, 20%);
+}
+
+.footer-wrapper > .footer-link {
+    padding: 15px 30px 15px 30px;
+    border: 1px solid  hsl(240, 1%, 48%);
+    width: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper > .footer-link a {
+    text-decoration: none;
+    color:  hsl(230deg, 12%, 85.29%);
+    font-weight: 750;
+    font-size: 1.4rem;
+}
+
+.footer-wrapper > .footer-link span {
+    color:   hsl(0deg, 0%, 100%);
+    font-size: 1.5rem;
+} 

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 85px;
     background-color: hsl(0deg 0% 0%);
 }
 
@@ -68,7 +68,7 @@
 
 .navBar-wrapper > .right-column > .right-column-items > .navbar-div {
     padding: 15px 20px 15px 20px;
-    background-color: hsl(227.37deg 12.26% 30.39%);
+    background-color:  hsl(216, 5%, 20%);
     border-radius: 2px;
     margin-right: 10px;
 } 

@@ -15,6 +15,7 @@
     margin-left: 15px;
     color: hsl(0deg, 0%, 100%);
     font-weight: 750;
+    font-size: 1.1rem;
 }
 
 .page-content-wrapper > .right-column > .description span {
@@ -23,8 +24,9 @@
 }
 
 .page-content-wrapper > .right-column > .image-wrapper img {
-    height: 100%;
+    height: 98.5%;
     width: 700px;
+    box-shadow: -10px 0px 20px 0px rgba(0,0,0,0.49);
 }
 
 .page-content-wrapper > .left-column {
