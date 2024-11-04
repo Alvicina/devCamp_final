@@ -28,6 +28,7 @@
     .navBar-wrapper > .center-column > .nav-links-wrapper {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .navBar-wrapper > .center-column > .nav-links-wrapper > .non-dropdown-links{
@@ -38,15 +39,14 @@
         flex-direction: column;
         margin-bottom: 20px;
     }
-    .nav-links-wrapper > .non-dropdown-links > .nav-link {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 1.5em;
+    .navBar-wrapper > .center-column > .nav-links-wrapper > .non-dropdown-links > .nav-link {
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: 100%;
     }
     .nav-links-wrapper > .dropdown-links > .nav-link {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         font-size: 1.5em;
         width: 100%;
     }
@@ -56,8 +56,8 @@
         
     }
     .navBar-wrapper > .right-column > .right-column-items > .navbar-div, .navbar-icon {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: 100%;
     }
     .navBar-wrapper > .center-column > .nav-links-wrapper > .non-dropdown-links > .nav-link a {
@@ -75,5 +75,30 @@
     .navBar-wrapper > .right-column > .right-column-items > .navbar-div i {
         font-size: 1.9rem;
     }
+    .page-content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .page-content-wrapper > .left-column{
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .page-content-wrapper > .right-column{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+    }
+    .footer-wrapper{
+        flex-direction: column;
+    }
+
+
 
 }

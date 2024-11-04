@@ -20,7 +20,7 @@
 
 .navBar-wrapper > .center-column > .title {
     color: hsl(49.32deg, 100%, 62.55%);
-    font-size: 1.05rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -41,7 +41,7 @@
     margin-right: 13px;
     text-decoration: none;
     color: hsl(0deg, 0%, 100%);
-    font-size: 1.125rem;
+    font-size: 1.325rem;
     font-weight: 750;
 }
 
@@ -54,7 +54,7 @@
     margin-left: 5px;
     text-decoration: none;
     color: hsl(230deg, 12%, 85.29%);
-    font-size: 1.125rem;
+    font-size: 1.325rem;
     font-weight: 515;
 }
 
@@ -79,14 +79,14 @@
 
 .navBar-wrapper > .right-column > .right-column-items > .navbar-div a {
     color: hsl(0deg, 0%, 100%);
-    font-size: 1.125rem;
+    font-size: 1.325rem;
     font-weight: 515;
     text-decoration: none;
 }
 
 .navBar-wrapper > .right-column > .right-column-items > .navbar-div i {
     color: hsl(139.41deg 58.62% 54.51%);
-    font-size: 1.25rem;
+    font-size: 1.425rem;
     margin-left: 5px;
 }
 

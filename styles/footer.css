@@ -8,7 +8,7 @@
 .footer-wrapper > .footer-link {
     padding: 15px 30px 15px 30px;
     border: 1px solid  hsl(240, 1%, 48%);
-    width: 360px;
+    width: 560px;
     display: flex;
     justify-content: center;
 }
